@@ -1,0 +1,73 @@
+
+\documentclass[utf8]{ctexart}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{enumerate}
+\usepackage{makecell}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+\begin{document}
+
+\begin{bfseries} 
+ 工作日志
+\end{bfseries}
+
+\section {日志记录方法}
+每天的工作记录都以同样的格式打印出来，装入活页文件夹中
+
+
+\section {ARM\_charge}
+\subsection {FreeRTOS}
+/home/wmt/opt/FreeRTOSv10.1.1/FreeRTOS \\
+/home/wmt/opt/FreeRTOSv10.1.1/FreeRTOS/Demo/lwIP_MCF5235_GCC/lwip/contrib/port/FreeRTOS \\
+/home/wmt/opt/FreeRTOSv10.1.1/FreeRTOS/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/contrib/port/FreeRTOS \\
+/home/wmt/opt/FreeRTOSv10.1.1/FreeRTOS/Demo/Common/ethernet/lwIP_130/contrib/port/FreeRTOS \\
+/home/wmt/myProj/王满涛/stm32f103c8t6/rtos/FreeRTOSv10.1.1/FreeRTOS \\
+/home/wmt/myProj/王满涛/stm32f103c8t6/rtos/FreeRTOSv10.1.1/FreeRTOS/Demo/lwIP_MCF5235_GCC/lwip/contrib/port/FreeRTOS \\
+/home/wmt/myProj/王满涛/stm32f103c8t6/rtos/FreeRTOSv10.1.1/FreeRTOS/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/contrib/port/FreeRTOS \\
+/home/wmt/myProj/王满涛/stm32f103c8t6/rtos/FreeRTOSv10.1.1/FreeRTOS/Demo/Common/ethernet/lwIP_130/contrib/port/FreeRTOS \\
+
+以上是完整引用的ＲＴＯＳ项目．
+
+第一类是：将来本地所有的FreeRTOS项目都用这个源．
+
+第二类是：　Begine STM32 pdf书的示例，按指导在源文件项目，自行从freeRTOS官方项目下载的RTOS源．
+
+
+/home/wmt/temp/STM32F4-FreeRTOS/FreeRTOS \\
+/home/wmt/temp/test/STM32F4-FreeRTOS/FreeRTOS \\
+
+这个内容是地github的一个项目:STM32 FreeRTOS; 它用到了FreeRTOS,　但用的很简介明了，是值得学习的．
+但是我要用哪种方法学习freeRTOS呢？
+
+1. <<Begine STM32>>
+
+2. github stm32 freeRTOS
+
+3. FreeRTOS的Demo
+
+
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F1_V1.7.0/Middlewares/Third_Party/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F1_V1.7.0/Projects/STM3210E_EVAL/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F1_V1.7.0/Projects/STM3210C_EVAL/Applications/FreeRTOS  \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F1_V1.7.0/Projects/STM32F103RB-Nucleo/Applications/FreeRTOS  \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Middlewares/Third_Party/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32F412G-Discovery/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32F413ZH-Nucleo/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32F429I-Discovery/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32446E_EVAL/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32F413H-Discovery/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM324x9I_EVAL/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32469I-Discovery/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM32469I_EVAL/Applications/FreeRTOS \\
+/home/wmt/STM32Cube/Repository/STM32Cube_FW_F4_V1.21.0/Projects/STM324xG_EVAL/Applications/FreeRTOS \\
+
+以上是两个地方的cube库，上一个是最新的F1/F4的库，含有FreeRTOS的示例项目和第三方中间件
+
+这个库是怎么安装进来的？安装它的软件，是否可以在本Linux系统下做IDE．或者要用到cube库时，从此处调用．
+
+
+
+
+
+\end{document}
